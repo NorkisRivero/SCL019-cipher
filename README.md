@@ -9,8 +9,8 @@ Esta aplicación puede ser usada por mujeres sin límites de edad, y de esa form
 
 El primer prototipo que realicé para el proyecto fue hecho en papel, y quedó de la siguiente forma:
 
-![Prototipo-papel1](src/imagenes/prototipo1.jpg)
-![Prototipo-papel2](src/imagenes/prototipo2.jpg)
+![Prototipo-papel1](src/imagenes/Prototipo1.jpg)
+![Prototipo-papel2](src/imagenes/Prototipo2.jpg)
 
 
 Luego realicé el prototipo en Figma de la siguiente manera:
