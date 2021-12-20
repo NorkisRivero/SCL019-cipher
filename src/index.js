@@ -1,6 +1,6 @@
 import cipher from "./cipher.js";
 
-//Botón cifrar mensaje
+//Botón Cifrar mensaje
 let cypher = document.getElementById("cipher");
 cypher.addEventListener("click", function () {
   let inicio = document.getElementById("home");
@@ -11,7 +11,7 @@ cypher.addEventListener("click", function () {
   mensajeCifrado.style.display = "none";
 });
 
-//Botón descifrar mensaje
+//Botón Descifrar mensaje
 let decipher = document.getElementById("decipher");
 decipher.addEventListener("click", function () {
   let inicio = document.getElementById("home");
@@ -50,8 +50,10 @@ decrypt.addEventListener("click", function () {
   let resultEncrypt2 = message2.value;
   let selectNumber = document.getElementById("number1");
   let resultEncrypt3 = parseInt(selectNumber.value);
-  document.getElementById("message2").innerHTML =
-    "" + cipher.encode(resultEncrypt2, resultEncrypt3);
+  document.getElementById("message3").innerHTML = cipher.decode(
+    resultEncrypt2,
+    resultEncrypt3
+  );
 });
 
 //Botón Volver a Home desde Mensaje Cifrado
